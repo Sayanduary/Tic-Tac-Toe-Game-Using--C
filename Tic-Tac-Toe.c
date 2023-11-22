@@ -27,12 +27,12 @@ int main()
         if (result == 1)
         {
             printf("Player %d is Winner\n", player);
-            return;
+            return 0;
         }
         else if (result == 0)
         {
             printf("Draw\n");
-            return;
+            return 0;
         }
         player++;
     }
